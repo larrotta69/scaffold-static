@@ -1,0 +1,1 @@
+"use strict";function _classCallCheck(n,t){if(!(n instanceof t))throw new TypeError("Cannot call a class as a function")}!function(){function t(n){_classCallCheck(this,t),this.name=n.getAttribute("data-name"),console.log("this.name -----\x3e debug"),console.log(this.name)}var n=document.querySelectorAll(".card");n&&n.forEach(function(n){new t(n)})}();

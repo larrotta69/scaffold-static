@@ -1,0 +1,8 @@
+include components/_meta
+
++meta()
+body
+	.wrapper
+		each superhero in data.superheros
+			+card(superhero)
+	+scripts()

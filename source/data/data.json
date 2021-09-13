@@ -1,0 +1,8 @@
+{
+  "superheros": [
+    {
+      "name": "ironman",
+      "background": "/images/ironman.png"
+    }
+  ]
+}

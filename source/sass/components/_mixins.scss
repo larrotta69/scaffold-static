@@ -1,0 +1,9 @@
+@use "sass:math";
+
+@function size($value: 1) {
+  @return ($value * 8) + px;
+}
+
+@function rem($valuepixel: 1) {
+  @return math.div($valuepixel, 16) + rem;
+}

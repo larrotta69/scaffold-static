@@ -1,0 +1,20 @@
+.cards {
+  @media ($media-min) {
+    display: flex;
+    flex-wrap: wrap;
+    padding-bottom: size(9);
+    gap: size(5);
+  }
+}
+
+.card {
+  min-height: size(65);
+  display: flex;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+
+  @media ($media-min) {
+    width: calc(50% - #{size(2.5)});
+  }
+}
